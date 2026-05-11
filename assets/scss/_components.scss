@@ -63,6 +63,10 @@
   text-transform: none;
   letter-spacing: normal;
   width: auto;
+
+  @media (max-width: $bp-mobile) {
+    padding: 1rem 1.25rem;
+  }
 }
 
 .btn--primary {
@@ -111,6 +115,10 @@
     color: $color-text-primary;
     margin-bottom: $spacing-sm;
     line-height: 1.2;
+
+    @media (max-width: $bp-mobile) {
+      font-size: 2rem;
+    }
   }
 
   p {
@@ -165,6 +173,10 @@
   margin-bottom: $spacing-2xl;
   text-align: left;
 
+  @media (max-width: $bp-tablet) {
+    font-size: 2rem;
+  }
+
   @media (max-width: $bp-mobile) {
     font-size: 1.5rem;
     margin-bottom: $spacing-lg;
@@ -177,6 +189,10 @@
   line-height: 1.1;
   color: $color-text-primary;
   margin-bottom: $spacing-2xl;
+
+  @media (max-width: $bp-tablet) {
+    font-size: 2rem;
+  }
 
   @media (max-width: $bp-mobile) {
     font-size: 1.5rem;
@@ -217,6 +233,10 @@
   color: $palette-white;
   margin-bottom: $spacing-3xl;
   max-width: 600px;
+
+  @media (max-width: $bp-tablet) {
+    font-size: 2rem;
+  }
 
   @media (max-width: $bp-mobile) {
     font-size: 1.5rem;
@@ -461,6 +481,10 @@
     justify-content: flex-end;
     z-index: 1;
 
+    @media (max-width: $bp-mobile) {
+      padding: $spacing-md;
+    }
+
     h3 {
       color: $palette-white;
       font-size: 1.75rem;
@@ -469,6 +493,10 @@
       margin: 0;
       margin-bottom: 1rem;
       transition: transform $transition-base;
+
+      @media (max-width: $bp-mobile) {
+        font-size: 1.25rem;
+      }
     }
 
     p {
@@ -638,6 +666,10 @@
   padding: $spacing-lg;
   background-color: $color-border-default;
 
+  @media (max-width: $bp-mobile) {
+    padding: $spacing-md;
+  }
+
   h3 {
     font-size: 1.75rem;
     font-weight: $font-weight-regular;
@@ -646,6 +678,10 @@
     margin-bottom: $spacing-sm;
     position: relative;
     z-index: 1;
+
+    @media (max-width: $bp-mobile) {
+      font-size: 1.25rem;
+    }
   }
 
   p {
@@ -724,7 +760,7 @@
 
   @media (max-width: $bp-mobile) {
     grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem;
+    gap: $spacing-md;
   }
 }
 
@@ -894,6 +930,10 @@
     font-weight: $font-weight-regular;
     color: $color-text-primary;
     margin: 0;
+
+    @media (max-width: $bp-mobile) {
+      font-size: 1.25rem;
+    }
   }
 
   p {
@@ -976,7 +1016,7 @@
   padding-block: $spacing-xs;
 
   @media (max-width: $bp-mobile) {
-    gap: 0.5rem;
+    gap: $spacing-md;
   }
 }
 
@@ -991,6 +1031,12 @@
 
   @media (max-width: $bp-mobile) {
     width: 280px;
+  }
+
+  h3 {
+    @media (max-width: $bp-mobile) {
+      font-size: 1.125rem;
+    }
   }
 
   &__img {
