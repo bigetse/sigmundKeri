@@ -74,6 +74,11 @@
   color: $btn-primary-label;
   font-size: $font-size-h5;
   font-weight: $font-weight-regular;
+
+  @media (max-width: $bp-mobile) {
+    font-size: $font-size-body;
+  }
+
   &:hover { background-color: $btn-primary-hover; }
 }
 
@@ -117,7 +122,7 @@
     line-height: 1.2;
 
     @media (max-width: $bp-mobile) {
-      font-size: 2rem;
+      font-size: 2.5rem;
       font-weight: $font-weight-semibold;
     }
   }
@@ -161,6 +166,13 @@
   }
 }
 
+// ─── Global Mobile Heading Styles ────────────────────────────────────────────
+@media (max-width: $bp-mobile) {
+  h2, h3, h4, h5, h6 {
+    font-weight: $font-weight-semibold;
+  }
+}
+
 // ─── Section modifier ─────────────────────────────────────────────────────────
 .section--alt {
   background-color: $color-bg-subtle;
@@ -180,7 +192,6 @@
 
   @media (max-width: $bp-mobile) {
     font-size: 1.5rem;
-    font-weight: $font-weight-semibold;
     margin-bottom: $spacing-lg;
   }
 }
@@ -198,7 +209,6 @@
 
   @media (max-width: $bp-mobile) {
     font-size: 1.5rem;
-    font-weight: $font-weight-semibold;
     margin-bottom: $spacing-lg;
   }
 }
@@ -243,7 +253,6 @@
 
   @media (max-width: $bp-mobile) {
     font-size: 1.5rem;
-    font-weight: $font-weight-semibold;
     margin-bottom: $spacing-2xl;
   }
 }
@@ -500,7 +509,6 @@
 
       @media (max-width: $bp-mobile) {
         font-size: 1.25rem;
-        font-weight: $font-weight-semibold;
       }
     }
 
@@ -686,7 +694,6 @@
 
     @media (max-width: $bp-mobile) {
       font-size: 1.25rem;
-      font-weight: $font-weight-semibold;
     }
   }
 
@@ -939,7 +946,6 @@
 
     @media (max-width: $bp-mobile) {
       font-size: 1.25rem;
-      font-weight: $font-weight-semibold;
     }
   }
 
@@ -1043,7 +1049,6 @@
   h3 {
     @media (max-width: $bp-mobile) {
       font-size: 1.125rem;
-      font-weight: $font-weight-semibold;
     }
   }
 
@@ -1087,7 +1092,6 @@
 
     @media (max-width: $bp-mobile) {
       font-size: 1.125rem;
-      font-weight: $font-weight-semibold;
     }
   }
 
