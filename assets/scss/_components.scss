@@ -118,6 +118,7 @@
 
     @media (max-width: $bp-mobile) {
       font-size: 2rem;
+      font-weight: $font-weight-semibold;
     }
   }
 
@@ -179,6 +180,7 @@
 
   @media (max-width: $bp-mobile) {
     font-size: 1.5rem;
+    font-weight: $font-weight-semibold;
     margin-bottom: $spacing-lg;
   }
 }
@@ -196,6 +198,7 @@
 
   @media (max-width: $bp-mobile) {
     font-size: 1.5rem;
+    font-weight: $font-weight-semibold;
     margin-bottom: $spacing-lg;
   }
 }
@@ -240,6 +243,7 @@
 
   @media (max-width: $bp-mobile) {
     font-size: 1.5rem;
+    font-weight: $font-weight-semibold;
     margin-bottom: $spacing-2xl;
   }
 }
@@ -496,6 +500,7 @@
 
       @media (max-width: $bp-mobile) {
         font-size: 1.25rem;
+        font-weight: $font-weight-semibold;
       }
     }
 
@@ -681,6 +686,7 @@
 
     @media (max-width: $bp-mobile) {
       font-size: 1.25rem;
+      font-weight: $font-weight-semibold;
     }
   }
 
@@ -933,6 +939,7 @@
 
     @media (max-width: $bp-mobile) {
       font-size: 1.25rem;
+      font-weight: $font-weight-semibold;
     }
   }
 
@@ -1036,6 +1043,7 @@
   h3 {
     @media (max-width: $bp-mobile) {
       font-size: 1.125rem;
+      font-weight: $font-weight-semibold;
     }
   }
 
@@ -1076,6 +1084,11 @@
     font-weight: $font-weight-regular;
     color: $color-text-primary;
     line-height: 1.2;
+
+    @media (max-width: $bp-mobile) {
+      font-size: 1.125rem;
+      font-weight: $font-weight-semibold;
+    }
   }
 
   p {
