@@ -1,0 +1,164 @@
+// ═══════════════════════════════════════════════════════════════════════════════
+// SIGMUND-KERI DESIGN TOKENS
+// Direction A: Warm & Inviting
+// ═══════════════════════════════════════════════════════════════════════════════
+
+// ─── Raw Colour Palette with Shade Ranges ──────────────────────────────────────
+// Direction A: Warm & Inviting
+// Green Family (Light to Dark)
+$palette-green-50:       #F1F8F5; // Lightest — subtle backgrounds
+$palette-green-100:      #E8F5E9; // Very light — primary background candidate
+$palette-green-200:      #C8E6C9; // Light — button, accents
+$palette-green-500:      #81C784; // Medium — hover states
+$palette-green-800:      #558B2F; // Dark
+$palette-green-900:      #558B2F; // Dark — strong actions, text
+$palette-green-950:      #3a5a20; // Darkest — footer background
+
+// Coral Family (Light to Dark)
+$palette-coral-50:       #FFF5F0; // Lightest — subtle backgrounds
+$palette-coral-100:      #FFEBDE; // Very light — accent backgrounds
+$palette-coral-400:      #ffb399; // Light — hover/secondary
+$palette-coral-500:      #ff7f50; // Medium — primary buttons, accents
+$palette-coral-800:      #b8341d; // Dark
+$palette-coral-900:      #d9522b; // Dark — strong actions
+
+// Gray Family (Light to Dark)
+$palette-gray-50:        #FAFAFA; // Lightest — near white
+$palette-gray-100:       #F1F2F3; // Very light
+$palette-gray-200:       #E0E0E0; // Light — borders
+$palette-gray-300:       #CCCCCF; // Light-medium — subtle text
+$palette-gray-400:       #B0BEC5; // Medium-light — muted text
+$palette-gray-500:       #92A8B4; // Medium — secondary text
+$palette-gray-600:       #78909C; // Medium — secondary text
+$palette-gray-700:       #5A7A87; // Medium-dark — darker secondary text
+$palette-gray-750:       #3C5260; // Medium-darker — paragraph text
+$palette-gray-800:       #1A2A33; // Very dark — headings, strong text
+$palette-gray-900:       #2C3E50; // Dark — primary text, charcoal
+
+// Legacy palette names (mapped to new ranges for backwards compatibility)
+$palette-green-light:    $palette-green-200;
+$palette-green-medium:   $palette-green-500;
+$palette-green-dark:     $palette-green-900;
+$palette-coral:          $palette-coral-500;
+$palette-coral-light:    $palette-coral-400;
+$palette-cream:          #FFFAF0; // Warm cream — primary background
+$palette-cream-800:      #9D6E47; // Darker cream
+$palette-blush:          #FFE5E0; // Soft blush pink — accent background
+$palette-blush-800:      #D84C2F; // Darker blush
+$palette-sage:           #E8F5E9; // Very light sage — subtle background
+$palette-charcoal:       $palette-gray-900;
+$palette-gray-medium:    $palette-gray-600;
+$palette-gray-light:     $palette-gray-400;
+$palette-border:         $palette-gray-200;
+$palette-white:          #FFFFFF;
+$palette-black:          #000000;
+
+// ─── Semantic Colour Tokens ───────────────────────────────────────────────────
+// Text
+$color-text-primary:     $palette-gray-800;    // Very dark charcoal (for headings)
+$color-text-secondary:   $palette-gray-750;    // Medium-dark gray (for paragraphs)
+$color-text-muted:       $palette-gray-600;    // Medium gray
+$color-text-inverse:     $palette-white;
+
+// Backgrounds
+$color-bg-default:       $palette-green-50;    // Lightest green — primary background
+$color-bg-subtle:        $palette-cream;
+$color-bg-accent:        $palette-green-100;   // Very light green for accents
+$color-bg-dark:          $palette-gray-900;    // Dark charcoal
+
+// Borders
+$color-border-default:   $palette-border;
+$color-border-muted:     $palette-cream;
+
+// Primary (Coral/Terracotta) - now used for buttons
+$color-primary:          $palette-coral-500;   // Vibrant coral
+$color-primary-hover:    $palette-coral-400;   // Light coral
+$color-primary-strong:   $palette-coral-900;   // Dark coral for strong actions
+
+// Accent (Warm Green) - supporting accent
+$color-accent:           $palette-green-200;   // Light green
+$color-accent-light:     $palette-green-100;   // Very light green
+$color-accent-hover:     $palette-green-900;   // Dark green
+
+// Status & Feedback
+$color-status-success:   $palette-green-medium;
+$color-status-error:     #FF6B6B; // Warm red for errors
+$color-status-warning:   #FFB74D; // Warm orange for warnings
+$color-status-info:      $palette-green-light;
+
+// ─── Button Semantic Tokens ───────────────────────────────────────────────────
+$btn-primary-bg:         $palette-coral-900;   // Dark coral
+$btn-primary-label:      $palette-white;      // White text on coral
+$btn-primary-hover:      $palette-coral-500;  // Vibrant coral hover
+
+$btn-secondary-bg:       $palette-white;
+$btn-secondary-label:    $palette-coral-500;  // Coral text on white
+$btn-secondary-hover:    $palette-green-200;  // Warm green hover
+
+$btn-tertiary-bg:        $palette-gray-900;   // Dark charcoal
+$btn-tertiary-label:     $palette-white;
+$btn-tertiary-hover:     $palette-coral-500;  // Coral hover
+
+// ─── Typography Tokens ────────────────────────────────────────────────────────
+$font-family-heading:    system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+$font-family-body:       system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+$font-size-base:         16px;
+
+// Font weights
+$font-weight-regular:    400;
+$font-weight-medium:     500;
+$font-weight-semibold:   600;
+$font-weight-bold:       700;
+
+// Font sizes (using em-based scale) — Brutalist: bold but readable
+$font-size-h1:           3.75rem;  // 60px — massive headline
+$font-size-h2:           2.5rem;   // 40px — bold subheading
+$font-size-h3:           2rem;     // 32px — strong section titles
+$font-size-h4:           1.75rem;  // 28px
+$font-size-h5:           1.375rem; // 22px
+$font-size-h6:           1.25rem;  // 20px
+
+$font-size-body:         1.125rem; // 18px — larger body text
+$font-size-sm:           1rem;     // 16px
+$font-size-xs:           0.875rem; // 14px
+
+// Line heights
+$line-height-display:    1;        // Ultra tight for brutal impact
+$line-height-body:       1.6;      // Standard body copy
+$line-height-relaxed:    1.8;      // Generous, for readability (long-form)
+$line-height-compact:    1.2;      // Tight for subheadings
+
+// Letter spacing
+$letter-spacing-normal:  0em;
+$letter-spacing-tight:   -0.02em;
+$letter-spacing-headings: 0.02em;
+$letter-spacing-labels:   0.06em;
+
+// ─── Spacing System (8-point scale, em-based) — Brutalist: spacious ──────────────
+$spacing-xs:             0.5rem;   // 8px
+$spacing-sm:             1rem;     // 16px
+$spacing-md:             1.5rem;   // 24px
+$spacing-lg:             2rem;     // 32px
+$spacing-xl:             2.5rem;   // 40px
+$spacing-2xl:            3rem;     // 48px
+$spacing-3xl:            3.5rem;   // 56px
+$spacing-4xl:            4rem;     // 64px
+$spacing-6xl:            7rem;     // 112px — increased for more breathing room
+
+// ─── Layout & Structure ───────────────────────────────────────────────────────
+$max-width-container:    1440px;
+$border-radius-default:  0;        // Sharp edges — brutalist
+$border-radius-sm:       0;        // Sharp edges
+$border-radius-md:       0;        // Sharp edges
+$border-radius-lg:       0;        // Sharp edges
+$border-radius-full:     0;        // Sharp edges (no more circles)
+
+// ─── Breakpoints ──────────────────────────────────────────────────────────────
+$bp-mobile:              500px;
+$bp-tablet:              768px;
+
+// ─── Transitions ──────────────────────────────────────────────────────────────
+$transition-fast:        0.2s ease;
+$transition-base:        0.3s ease;
+$transition-slow:        0.5s ease;

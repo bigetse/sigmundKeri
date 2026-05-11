@@ -1,0 +1,12 @@
+{
+  "name": "sigmundkeri-website",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "sass --watch assets/scss/main.scss:assets/css/main.css",
+    "build": "sass assets/scss/main.scss assets/css/main.css --style compressed",
+    "serve": "npx live-server --port=3000"
+  },
+  "devDependencies": {
+    "sass": "^1.71.1"
+  }
+}
