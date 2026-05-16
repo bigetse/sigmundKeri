@@ -65,7 +65,7 @@
   width: auto;
 
   @media (max-width: $bp-mobile) {
-    padding: 1rem 1.25rem;
+    padding: $spacing-xs $spacing-sm;
   }
 }
 
