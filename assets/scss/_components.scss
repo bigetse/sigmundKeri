@@ -194,10 +194,12 @@
 
   @media (max-width: $bp-tablet) {
     font-size: 2.5rem;
+    font-weight: $font-weight-bold;
   }
 
   @media (max-width: $bp-mobile) {
     font-size: 2.5rem;
+    font-weight: $font-weight-bold;
     margin-bottom: $spacing-lg;
   }
 }
@@ -211,10 +213,12 @@
 
   @media (max-width: $bp-tablet) {
     font-size: 2.5rem;
+    font-weight: $font-weight-bold;
   }
 
   @media (max-width: $bp-mobile) {
     font-size: 2.5rem;
+    font-weight: $font-weight-bold;
     margin-bottom: $spacing-lg;
   }
 }
@@ -255,10 +259,12 @@
 
   @media (max-width: $bp-tablet) {
     font-size: 2.5rem;
+    font-weight: $font-weight-bold;
   }
 
   @media (max-width: $bp-mobile) {
     font-size: 2.5rem;
+    font-weight: $font-weight-bold;
     margin-bottom: $spacing-2xl;
   }
 }
