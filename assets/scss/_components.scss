@@ -109,6 +109,10 @@
     margin-inline: auto;
     padding-inline: $spacing-md;
     width: 100%;
+
+    @media (max-width: $bp-mobile) {
+      padding-inline: $spacing-sm;
+    }
   }
 
   @media (max-width: $bp-mobile) {
@@ -283,8 +287,11 @@
   &::-webkit-scrollbar { display: none; }
   padding-inline: $spacing-md;
   margin-inline: auto;
-  padding-left: $spacing-md;
   max-width: $max-width-container;
+
+  @media (max-width: $bp-tablet) {
+    padding-inline: $spacing-sm;
+  }
 
   @media (max-width: $bp-mobile) {
     padding-inline: $spacing-sm;
@@ -1072,6 +1079,10 @@
   padding-inline: $spacing-md;
   margin-inline: auto;
   max-width: $max-width-container;
+
+  @media (max-width: $bp-tablet) {
+    padding-inline: $spacing-sm;
+  }
 
   @media (max-width: $bp-mobile) {
     padding-inline: $spacing-sm;
