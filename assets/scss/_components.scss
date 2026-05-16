@@ -166,14 +166,14 @@
   }
 }
 
-// ─── Global Mobile Heading Styles ────────────────────────────────────────────
-@media (max-width: $bp-mobile) {
+// ─── Global Tablet/Mobile Heading Styles ──────────────────────────────────────
+@media (max-width: $bp-tablet) {
   h1, h2, h3, h4, h5, h6 {
     font-weight: $font-weight-semibold;
   }
 }
 
-@media (max-width: $bp-mobile) {
+@media (max-width: $bp-tablet) {
   h2, h3 {
     font-weight: $font-weight-bold;
   }
