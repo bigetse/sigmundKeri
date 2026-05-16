@@ -175,7 +175,7 @@
 
 @media (max-width: $bp-tablet) {
   h2, h3 {
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-semibold;
   }
 }
 
@@ -194,12 +194,12 @@
 
   @media (max-width: $bp-tablet) {
     font-size: 2.5rem;
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-semibold;
   }
 
   @media (max-width: $bp-mobile) {
     font-size: 2.5rem;
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-semibold;
     margin-bottom: $spacing-lg;
   }
 }
@@ -213,12 +213,12 @@
 
   @media (max-width: $bp-tablet) {
     font-size: 2.5rem;
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-semibold;
   }
 
   @media (max-width: $bp-mobile) {
     font-size: 2.5rem;
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-semibold;
     margin-bottom: $spacing-lg;
   }
 }
@@ -259,12 +259,12 @@
 
   @media (max-width: $bp-tablet) {
     font-size: 2.5rem;
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-semibold;
   }
 
   @media (max-width: $bp-mobile) {
     font-size: 2.5rem;
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-semibold;
     margin-bottom: $spacing-2xl;
   }
 }
